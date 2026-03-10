@@ -29,7 +29,7 @@ driver = webdriver.Remote(
 # driver.maximize_window()
 
 # === KONFIG TELEGRAM ===
-BOT_TOKEN = '7700320759:AAHC0ufJWzBsteFFfyoXg27cO7cCfZkcR00'   # Ganti token kamu
+BOT_TOKEN = 'token'# Ganti token kamu
 CHAT_ID = '-4800804566'               # Ganti chat ID kamu
 
 # === FOLDER ===
@@ -223,3 +223,4 @@ except Exception as e:
     handle_error(driver, e)
 finally:
     driver.quit()
+
