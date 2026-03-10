@@ -11,7 +11,7 @@ def urlJenkinsJob = 'http://10.24.7.14:8080/job/'
 def buildNumber = currentBuild.number
 
 def sendTelegramNotification(String message) {
-    def token = "7700320759:AAHC0ufJWzBsteFFfyoXg27cO7cCfZkcR00"
+    def token = "token"
     def chatId = "-4800804566"
     def url = "https://api.telegram.org/bot${token}/sendMessage"
 
@@ -94,3 +94,4 @@ node {
         }
     } 
 }
+
