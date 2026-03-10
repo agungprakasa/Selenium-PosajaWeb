@@ -56,7 +56,7 @@ try:
     username_input = driver.find_element(By.ID, "l_form1")
     password_input = driver.find_element(By.ID, "l_form2")
     username_input.clear()
-    username_input.send_keys("agungprakasa49@gmail.com")
+    username_input.send_keys("email")
     password_input.clear()
     password_input.send_keys("100721")
 
@@ -70,3 +70,4 @@ try:
     
 finally:
     driver.quit()
+
